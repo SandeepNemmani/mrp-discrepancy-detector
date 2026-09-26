@@ -1,6 +1,6 @@
 # MRP Demand Audit: Three BOM errors that inflate MRP demand
 
-At Tesla I traced a set of manufacturing BOM structuring errors that were inflating MRP demand by about 57% over the actual material consumption plan. Fixing them prevented potential over-procurement worth $8.4M a year.
+I traced a set of manufacturing BOM structuring errors that were inflating MRP demand by about 57% over the actual material consumption plan. Fixing them prevented potential over-procurement worth $8.4M a year.
 
 There was no single bug. There were three, each with its own symptom and its own fix. This repo rebuilds that method in Python on synthetic data, so anyone can run it and see how each check works.
 
