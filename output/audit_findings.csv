@@ -1,0 +1,16 @@
+part,issue,finding,as_is,recommended,fix,excess_units_per_week,annualized_excess_usd
+GEN-3019,QPV,BOM QPV 12 across 2 stations; actual good usage 6.00/vehicle,12,6,Remove station tag(s) WS-210,6104.16,1981725.310656
+GEN-3024,QPV,BOM QPV 16 across 2 stations; actual good usage 8.00/vehicle,16,8,Remove station tag(s) WS-130,8060.621538461539,1589132.190816
+CHG-US,OPTION_CODE,US uses 1PH but part also carries 3PH,US+1PH|US+3PH,US+1PH,Remove option code US+3PH,146.64461538461535,1430542.2141359998
+GEN-3000,QPV,BOM QPV 6 across 3 stations; actual good usage 2.00/vehicle,6,2,"Remove station tag(s) WS-250, WS-260",4186.827692307692,930013.3363679999
+CHG-KR,OPTION_CODE,KR uses 1PH but part also carries 3PH,KR+1PH|KR+3PH,KR+1PH,Remove option code KR+3PH,44.01692307692309,769263.7281120003
+CHG-AU,OPTION_CODE,AU uses 3PH but part also carries 1PH,AU+1PH|AU+3PH,AU+3PH,Remove option code AU+1PH,30.678461538461548,570111.2756640002
+GEN-3010,QPV,BOM QPV 3 across 3 stations; actual good usage 1.00/vehicle,3,1,"Remove station tag(s) WS-140, WS-310",2015.1553846153847,410538.73982400005
+GEN-3001,QPV,BOM QPV 2 across 2 stations; actual good usage 1.00/vehicle,2,1,Remove station tag(s) WS-250,1046.7069230769232,241445.97936000003
+GEN-3005,YIELD,BOM yield 13% vs scrap 4.7% (over-buffered); inventory moving +10% of weekly usage per week,0.13,0.05,NPI to update BOM yield 13% -> 5%,156.51692307692247,148437.7073279994
+GEN-3003,QPV,BOM QPV 8 across 2 stations; actual good usage 4.00/vehicle,8,4,Remove station tag(s) WS-300,3991.181538461539,104870.68963200001
+GEN-3014,YIELD,BOM yield 12% vs scrap 3.8% (over-buffered); inventory moving +10% of weekly usage per week,0.12,0.04,NPI to update BOM yield 12% -> 4%,156.51692307692292,87044.50771199992
+GEN-3006,YIELD,BOM yield 13% vs scrap 2.4% (over-buffered); inventory moving +12% of weekly usage per week,0.13,0.03,NPI to update BOM yield 13% -> 3%,195.64615384615354,80421.29063999988
+GEN-3029,YIELD,BOM yield 19% vs scrap 6.4% (over-buffered); inventory moving +14% of weekly usage per week,0.19,0.07,NPI to update BOM yield 19% -> 7%,117.3876923076923,29961.048527999996
+GEN-3002,YIELD,BOM yield 15% vs scrap 6.8% (over-buffered); inventory moving +9% of weekly usage per week,0.15,0.07,NPI to update BOM yield 15% -> 7%,156.51692307692292,26492.054399999975
+GEN-3003,YIELD,BOM yield 2% vs scrap 8.6% (under-buffered); inventory moving +91% of weekly usage per week,0.02,0.09,NPI to update BOM yield 2% -> 9%,-273.9046153846152,-7197.008111999996
